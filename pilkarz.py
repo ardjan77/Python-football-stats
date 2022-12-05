@@ -32,7 +32,7 @@ def on_click():
     Label(main_window, width=30, text=bramki).grid(row=0, column=2)
 
 
-EMAIL_ADDRESS = os.environ.get('EMAIL_USER')  # https://www.youtube.com/watch?v=IolxqkL7cD8 zmienne srodowiskowe WINDOWS
+EMAIL_ADDRESS = os.environ.get('EMAIL_USER')  
 EMAIL_PASSWORD = os.environ.get('EMAIL_PASS')
 # print(EMAIL_PASSWORD, EMAIL_ADDRESS)
 
